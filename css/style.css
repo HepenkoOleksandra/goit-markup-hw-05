@@ -40,7 +40,7 @@ address {
     outline: 1px solid red;
 }
 
-.page-container {
+/*.page-container {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -48,7 +48,7 @@ address {
 
 main {
     flex-grow: 1;
-}
+}*/
 
 /*----- HEADER -----*/
 .header {
