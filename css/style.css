@@ -596,7 +596,7 @@ transform: translateY(0);
 .footer-soc-link:focus,
 .footer-soc-link:active {
     background-color: #31D0AA;
-color: #f4f4fd;
+    color: #f4f4fd;
 }
 
 /*.footer-soc-icon {
@@ -614,8 +614,8 @@ color: #f4f4fd;
 }*/
 
 .footer-container-form {
-display: flex;
-padding: 0;
+    display: flex;
+    padding: 0;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
@@ -634,20 +634,25 @@ color: #FFF;
     display: flex;
     justify-content: start;
     align-items: center;
+    gap: 24px;
 }
+
+.footer-form-label {}
 
 .footer-form-input {
     min-width: 264px;
     height: 40px;
     padding: 8px 16px;
     border-radius: 4px;
-    border: 1px solid var(--WHITE, #FFF);
+    border: 1px solid #FFF;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     background-color: transparent;
     color: #ffffff;
     font-size: 12px;
-    margin-right: 24px;
-}
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+   }
 
 .footer-form-input::placeholder {
     color: #FFF;
@@ -658,30 +663,29 @@ color: #FFF;
 }
 
 .footer-form-btn {
-display: block;
-min-width: 165px;
-height: 40px;
-border-radius: 4px;
+    display: block;
+    min-width: 165px;
+    height: 40px;
+    border-radius: 4px;
     background-color: #4D5AE5;
     border: none;
     padding: 8px 24px;
-
     color: #FFF;
-        font-family: inherit;
-        text-align: center;
-        font-size: 16px;
-        font-weight: 500;
-        line-height: 1.5;
-        letter-spacing: 0.04em;
-        cursor: pointer;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 16px;
+    font-family: inherit;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;        
 }
 
 .footer-form-icon {
-fill: #ffffff;
+    fill: #ffffff;
+    margin-left: 16px;
 }
 
 /*===================================*/
@@ -898,7 +902,7 @@ fill: #4D5AE5;
 }
 
 .check-text-icon {
-fill: currentColor;
+    fill: currentColor;
 }
 
 .modal-form-btn {
