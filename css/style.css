@@ -866,9 +866,6 @@ fill: #4D5AE5;
     font-weight: 400;
     line-height: 1.17;
     letter-spacing: 0.04em;
-    display: flex;
-    align-items: center;
-    
 }
 
 .check-text-policy {
@@ -890,7 +887,6 @@ fill: #4D5AE5;
     justify-content: center;
     align-items: center;
     fill: transparent;
-    /*color: #F4F4FD;*/
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     display: inline-flex;
 }
@@ -898,13 +894,8 @@ fill: #4D5AE5;
 .modal-check:checked + .check-text > .check-text-box {
     background-color: #404BBF;
     fill: #F4F4FD;;
-    /*color: #FFF;*/
     border: none;
 }
-
-/*.check-text-icon {
-    fill: currentColor;
-}*/
 
 .modal-form-btn {
     border: none;
